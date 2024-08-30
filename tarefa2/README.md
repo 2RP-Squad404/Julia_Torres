@@ -1,0 +1,5 @@
+# Relatório Resumido: Análise de Campanhas e Compras com Hive
+
+No relatório, documentei o processo de criação e análise de dados de campanhas de marketing e compras usando Hive. Inicialmente, criei tabelas para armazenar informações essenciais sobre as campanhas e as compras realizadas pelos clientes, configurando-as para ignorar os cabeçalhos dos arquivos CSV. Após verificar a criação bem-sucedida dessas tabelas, carreguei os dados reais de arquivos armazenados no Amazon S3, permitindo que trabalhássemos com informações atualizadas de 2023.
+Em seguida, criei uma view chamada `tabela_oficial`, que consolidou várias métricas importantes, como o total gasto por cliente, o local mais frequente de compras e a campanha mais recebida. A view também calculou a quantidade de erros nas campanhas e incluiu a data atual e o formato de ano e mês, facilitando análises futuras.
+Essa abordagem permitiu transformar dados brutos em insights valiosos e acessíveis, proporcionando uma visão clara sobre o desempenho das campanhas e o comportamento dos clientes. Essa análise é essencial para otimizar estratégias de marketing e melhorar a experiência do cliente.
